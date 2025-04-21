@@ -1,0 +1,17 @@
+name: qr_video_web_final
+description: QR Video Web App for simulate unlock
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.7.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - web/assets/videos/m_01.mp4
+    - web/assets/videos/m_02.mp4
+    - web/assets/videos/m_03.mp4
